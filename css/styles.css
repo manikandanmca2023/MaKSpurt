@@ -2853,6 +2853,11 @@ img.u-pull-left {
     left           : var(--gutter);
 }
 
+@media screen and (max-width: 768px) {
+    .row.section-header[data-num="Our Services"]{
+      font-size: 8px;
+    }
+  }
 .section-header.light-on-dark .title {
     color : white;
 }
@@ -3824,6 +3829,10 @@ img.u-pull-left {
     .s-about {
         padding-top    : var(--vspace-4);
         padding-bottom : var(--vspace-4_5);
+    }
+}
+@media screen and (max-width: 1100px) {
+    .row.section-header[data-num="About Us"] {
         font-size: 8px;
     }
 }
@@ -3852,7 +3861,7 @@ img.u-pull-left {
     .s-services {
         padding-top    : var(--vspace-4);
         padding-bottom : var(--vspace-4_8);
-        font-size: 8px;
+        
     }
 }
 
@@ -4126,7 +4135,6 @@ img.u-pull-left {
     .s-folio {
         padding-top    : var(--vspace-4);
         padding-bottom : var(--vspace-4_5);
-        font-size: 8px;
     }
 
     .bricks {
@@ -4134,7 +4142,17 @@ img.u-pull-left {
         margin-bottom : var(--vspace-2);
     }
 }
-
+@media screen and (max-width: 1100px) {
+    .row.section-header.light-on-dark[data-num="Work/Details"] {
+      font-size: 8px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .offset-lg-1.col-lg-5.col-sm-8.col-md-6 {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+}
 @media screen and (max-width: 550px) {
 
     .bricks-wrapper .grid-sizer,
@@ -4143,6 +4161,9 @@ img.u-pull-left {
         float : none;
     }
 }
+
+
+
 
 
 /* ===================================================================
@@ -4611,7 +4632,11 @@ img.u-pull-left {
     .s-footer {
         padding-top    : var(--vspace-4);
         padding-bottom : var(--vspace-2_5);
-        font-size: 8px;
+    }
+    @media screen and (max-width: 768px) {
+        .row.section-header[data-num="Contact"] {
+           font-size: 8px;
+        }
     }
 
     .ss-go-top {
@@ -4736,82 +4761,9 @@ img.u-pull-left {
     font-size: 1em;
     color: #757575;
 }
-
-/* Media queries */
-@media (max-width: 1200px) {
-    .about_text h2 {
-        font-size: 1.8em;
-    }
-
-    .about_text p {
-        font-size: 0.9em;
-    }
-
-    .single_counter .counter {
-        font-size: 1.8em;
-    }
-
-    .single_counter p {
-        font-size: 0.9em;
-    }
+#service.row section-header{
+    font-size: 8px;
 }
-
-@media (max-width: 992px) {
-    .about_text h2 {
-        font-size: 1.6em;
-    }
-
-    .about_text p {
-        font-size: 0.8em;
-    }
-
-    .single_counter .counter {
-        font-size: 1.6em;
-    }
-
-    .single_counter p {
-        font-size: 0.8em;
-    }
-}
-
-@media (max-width: 768px) {
-    .about_text h2 {
-        font-size: 1.4em;
-    }
-
-    .about_text p {
-        font-size: 0.7em;
-    }
-
-    .single_counter .counter {
-        font-size: 1.4em;
-    }
-
-    .single_counter p {
-        font-size: 0.7em;
-    }
-}
-
-@media (max-width: 576px) {
-    .about_text h2 {
-        font-size: 1.2em;
-    }
-
-    .about_text p {
-        font-size: 0.6em;
-    }
-
-    .single_counter .counter {
-        font-size: 1.2em;
-    }
-
-    .single_counter p {
-        font-size: 0.6em;
-    }
-}
-
-
-
   
 
 
