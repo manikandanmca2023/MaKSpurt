@@ -4742,13 +4742,19 @@ img.u-pull-left {
 .about_part_counter {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    /* flex-wrap: wrap; */
+    gap: 2px;
 }
 
 .single_counter {
     text-align: center;
     padding: 100px;
+}
+@media (max-width: 600px) {
+    .single_counter {
+        text-align: center;
+        padding: 10px; 
+    }
 }
 
 .single_counter .counter {
@@ -4761,6 +4767,13 @@ img.u-pull-left {
     font-size: 1em;
     color: #757575;
 }
+
+
+
+
+
+
+
 #service.row section-header{
     font-size: 8px;
 }
